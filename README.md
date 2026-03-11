@@ -8,6 +8,8 @@ This project analyzes **marketing funnel data** to understand how users move thr
 The goal is to identify **conversion drop-offs**, evaluate **brand and category performance**, and uncover opportunities to improve **lead-to-customer conversion** using an interactive **Power BI dashboard**.
 
 ---
+<img width="1186" height="668" alt="Screenshot 2026-03-11 141046" src="https://github.com/user-attachments/assets/7e422453-1c86-4db1-a94d-f2fb69162683" />
+
 
 ##  Dataset Description
 
