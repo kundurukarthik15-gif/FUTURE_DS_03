@@ -1,93 +1,86 @@
-# FUTURE_DS_03 – Marketing Funnel & Conversion Analysis
+# Marketing Funnel Analysis
 
-## Internship Program
+#  Marketing Funnel Analysis – Power BI Dashboard
 
-Future Interns – Data Science & Analytics Internship
+##  Project Overview
 
----
-
-## Project Overview
-
-This project focuses on analyzing the marketing funnel to understand how potential customers move through different stages before making a purchase. A marketing funnel helps businesses track user engagement from the initial interaction with marketing campaigns to the final purchase.
-
-The analysis identifies where customers drop off in the funnel and measures conversion rates between stages. These insights help businesses optimize marketing strategies and improve overall conversion performance.
+This project analyzes **marketing funnel data** to understand how users move through different stages such as **view → cart → purchase**.
+The goal is to identify **conversion drop-offs**, evaluate **brand and category performance**, and uncover opportunities to improve **lead-to-customer conversion** using an interactive **Power BI dashboard**.
 
 ---
 
-## Project Objectives
+##  Dataset Description
 
-* Analyze customer journey through different marketing funnel stages
-* Identify drop-off points in the funnel
-* Calculate conversion rates between funnel stages
-* Evaluate marketing campaign performance
-* Provide recommendations to improve marketing efficiency and increase conversions
+The dataset contains user-level event data with the following columns:
+
+* **user_id** – Unique user identifier
+* **product_id** – Unique product identifier
+* **brand** – Product brand
+* **category_code** – Product category
+* **event_time** – Timestamp of user activity
+* **event_type** – User action (view, cart, purchase)
+* **price** – Product price
+
+---
+##  Project Objectives
+
+* Analyze the **marketing funnel stages**
+* Identify **conversion drop-offs**
+* Measure **brand and category performance**
+* Track **user behavior over time**
+* Support data-driven marketing decisions
 
 ---
 
-## Tools & Technologies Used
+##  Data Preparation
 
-* Power BI
-* Data Analytics
-* CSV Dataset
-
----
-
-## Dataset Description
-
-The dataset contains marketing performance data that tracks customer interactions across different funnel stages. Key columns include:
-
-* Date
-* Campaign Name
-* Traffic Source
-* Leads
-* Website Visits
-* Product Views
-* Add to Cart
-* Purchases
-* Revenue
+* Removed null and blank values
+* Converted date/time fields to proper formats
+* Cleaned category and brand names
+* Standardized event types
+* Created calculated measures for funnel analysis
 
 ---
 
-## Dashboard Features
+## 📐 Key Metrics & Measures
 
-The Power BI dashboard includes the following visualizations:
+* **Total Views**
+* **Total Products**
+* **Total Users**
+* **Total Purchases**
+* **Total Revenue (Sum of Price)**
 
-* Marketing Funnel Visualization (Funnel Chart)
-* Campaign Performance Analysis
-* Traffic Source Distribution
-* Revenue Trend Over Time
-* Conversion Rate Metrics
-* KPI Cards displaying Total Leads, Purchases, Revenue, and Conversion Rate
 
----
+##  Key Insights
 
-## Key Insights
-
-* A significant drop-off occurs between the product view stage and the add-to-cart stage.
-* Social media campaigns generate the highest number of leads.
-* Email marketing shows better conversion rates compared to other channels.
-* Improving the checkout process could increase overall purchase conversions.
+* Most users drop off after the **view** stage
+* Very few users convert from **cart to purchase**
+* Certain brands (e.g., Xiaomi) attract higher user engagement
+* Some categories generate high revenue but low purchases
+* User activity peaks during specific time periods
 
 ---
 
-## Business Recommendations
+##  Business Recommendations
 
-* Optimize product pages to reduce drop-offs after product views.
-* Invest more in high-performing marketing channels.
-* Improve user experience during checkout to increase purchases.
-* Use targeted marketing campaigns for high-intent users.
-
----
-
-## Project Files
-
-* marketing_dataset.csv – Dataset used for analysis
-* marketing_dashboard.pbix – Power BI dashboard file
-* dashboard.png – Screenshot of the dashboard
+* Improve **cart-to-purchase conversion** with offers and reminders
+* Focus marketing spend on **high-engagement brands**
+* Optimize product pricing in low-conversion categories
+* Retarget users who view but do not purchase
+* Enhance user experience during checkout
 
 ---
 
-## Author
+##  Conclusion
 
-Karthik Kunduru
-Data Science & Analytics Intern
+This Marketing Funnel Dashboard provides a clear view of customer behavior across funnel stages.
+It helps businesses identify **conversion gaps**, optimize marketing strategies, and improve overall sales performance using data-driven insights.
+
+---
+
+## Tools & Technologies
+
+* **Power BI**
+* **DAX**
+* **Excel / CSV Dataset**
+* **Data Cleaning & Visualization**
